@@ -5,10 +5,10 @@ contract SimpleStorage {
     
     // This gets initialized to zero
     // <- This means that this section is a comment !
-    uint256 FavoriteNumber;
+    uint256 FavoriteNumbers;
 
     function store (uint256 _favoriteNumber) public {
-        FavoriteNumber = _favoriteNumber;
+        FavoriteNumbers = _favoriteNumber;
     }
 
 
