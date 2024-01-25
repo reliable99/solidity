@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SimpleStorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xa51eca6fa1ba819700bc8e20ebdaebe1d89e42bb4ccb0ac6ddcb92e6912e5f8d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://900a32ca9663ff45b8ecb719c113f2ab3620f455f7df12b1ff1f80b625b5ed7a",
+				"dweb:/ipfs/QmQ4mz8a9LUyd6benmcuno5w65QvEKnhdiJDCwe66GAzQZ"
+			]
+		}
+	},
+	"version": 1
+}
