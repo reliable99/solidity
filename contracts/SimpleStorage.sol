@@ -11,7 +11,9 @@ contract SimpleStorage {
         FavoriteNumber = _favoriteNumber;
     }
 
-
+    function setInheritance (address payable wallet, uint amount ) public  {
+        
+    }
 
 
 
