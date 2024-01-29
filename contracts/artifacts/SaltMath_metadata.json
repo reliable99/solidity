@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SaltMath.sol": "SaltMath"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SaltMath.sol": {
+			"keccak256": "0xc3f87811befc92206fd057013fb8a78d09957e34b3f888623b243db2740b0a86",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cbc37825c683bc3e1cfc9d4cf6c433b41f67a2f3160cf14f785df030c54b1170",
+				"dweb:/ipfs/QmYFGWzgskP5JUxv12Uut5TPPoW2uNrwpGFNawi84NemaV"
+			]
+		}
+	},
+	"version": 1
+}
