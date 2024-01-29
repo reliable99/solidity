@@ -1,10 +1,78 @@
 {
 	"compiler": {
-		"version": "0.8.8+commit.dddeac2f"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
 			{
 				"inputs": [
 					{
@@ -34,7 +102,7 @@
 		"compilationTarget": {
 			"contracts/SimpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "london",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -47,11 +115,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0xa51eca6fa1ba819700bc8e20ebdaebe1d89e42bb4ccb0ac6ddcb92e6912e5f8d",
+			"keccak256": "0x7410051620f9a2e9b1670e8db1696a14b01994ec6404a78522361e2827318145",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://900a32ca9663ff45b8ecb719c113f2ab3620f455f7df12b1ff1f80b625b5ed7a",
-				"dweb:/ipfs/QmQ4mz8a9LUyd6benmcuno5w65QvEKnhdiJDCwe66GAzQZ"
+				"bzz-raw://0618e3f9b7b7bea082d0cabf96dab113a0a77121647a15a2b53a14c87d6212fb",
+				"dweb:/ipfs/QmcdERvWFVYAHzRNiNfZK9sFtaPDBs66Witk3j8sBrtbG6"
 			]
 		}
 	},
